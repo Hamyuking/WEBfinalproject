@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<hmtl lang = "en">
+
+    <head>
+        <title> Gallery </title>
+        <meta charset = “utf-8” name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="..\CSS\Default setting.css">
+        <link rel="stylesheet" type="text/css" href="..\CSS\Gallery Style Sheet.css">
+        <link rel="stylesheet" type="text/css" href="..\CSS\Promo Style Sheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+<body>
+    <header>
+        <div class ="logo">
+            <img src="..\Page-Background\Company_Logo.PNG">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Landing Page.html"> Welcome! </a></li>
+                <li><a href="Home Page.html"> Home </a></li>
+                <div class = "dropdown">
+                    <li> <a href="Log In.html"> Log In </a>
+                        <div class = "dropdown-content">
+                            <a href="Join us.html"> Join us </a>
+                        </div>
+                    </li>
+                </div>
+    
+                <li><a href="Gallery.html"> Gallery </a></li>
+    
+                <div class = "dropdown">
+                    <li> <a> Product </a>
+                        <div class = "dropdown-content">
+                            <a href="Accessories.html"> Accessories </a>
+                            <a href="Desktop.html"> Desktop </a>
+                            <a href="Monitor.html"> Monitor </a>
+                            <a href="Laptop.html"> Laptop </a>
+                            <a href="Software.html"> Software </a>
+                        </div>
+                    </li>
+                </div>
+    
+                <div class = "dropdown">
+                    <li> <a> Brand </a>
+                            <div class = "dropdown-content">
+                            <a href="Acer.html"> Acer </a>
+                            <a href="Dell.html"> Dell </a>
+                            <a href="HP.html"> HP </a>
+                            <a href="Lenovo.html"> Lenovo </a>
+                            <a href="MSI.html"> MSI </a>
+                        </div>
+                    </li>
+                </div>
+                    
+                <div class = "right-nav">
+                    <li><a href="Contact.html"> Contact </a></li>
+                    <li><a href="About.html"> About </a></li>
+                </div>
+            </ul>
+        </nav> 
+    </header>
+        
+    
+    <br><h1> Videos of Products </h1><br>
+
+    <div class = "grid-container">
+        <div class = "header">
+            <video controls>
+                <source src="../Gallery/2020 Nitro 5 Gaming Laptop _ Acer.mp4" type="video/mp4">
+                <source src="../Gallery/2020 Nitro 5 Gaming Laptop _ Acer.mp4" type="video/ogg">
+            </video>
+            <video controls>
+                <source src="../Gallery/Dell Optimizer_ Intelligence that Matches Yours.mp4" type="video/mp4">
+                <source src="../Gallery/Dell Optimizer_ Intelligence that Matches Yours.mp4" type="video/ogg">
+            </video>
+
+            <div id="Promoslideshow">
+                <div class = "slideshow-container">
+                    <div class = "promoSlides">
+                        <img src="../Promotions/Hari Raya Sales.JPG" width="400" height="458">
+                    </div>
+            
+                    <div class = "promoSlides"> 
+                        <img src= "../Promotions/Get Voucher.JPG" width="400" height="338">
+                    </div>
+            
+                    <div class = "promoSlides"> 
+                        <img src= "../Promotions/More.JPG" width="505" height="278" class="lastimg">
+                    </div>
+            
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <br>
+                
+                <div class="alignment">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class = "footer-container">
+            <div class = "footer-content">
+                <h4> Contact Number: </h4>
+                <p>  018-323-0225 </p>
+            </div>
+            
+            <div class = "footer-content">
+                <h4> Email </h4>
+                <p> cxbakac@gmail.com </p>
+            </div>
+            
+            <div class = "footer-content">
+                <h4> Store Location: </h4>
+                <p> Bandar Menjalara, 52200 Kepong, Kuala Lumpur </p>
+            </div>
+            
+            <div class = "social media">
+                <a href="https://www.facebook.com/copypastie/"> <i class="fa fa-facebook"> </i></a>
+                <a href="https://twitter.com/copypastie"> <i class="fa fa-twitter"> </i></a>
+                <a href="https://www.instagram.com/copypastie/?hl=en"> <i class="fa fa-instagram"> </i></a>
+            </div>
+            
+            <div class = "footer-bottom"> 
+                <small><p> &copy;2022 by Salted Fish. Created with html, CSS and JavaScript. </p></small>
+            </div>
+        </div>
+    </footer>
+
+    <script src = "../JavaScript/Promotion Script.js"></script>
+</body>
+</html>

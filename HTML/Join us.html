@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<hmtl lang = "en">
+
+<head>
+    <title> Log In: Join Us </title>
+    <meta charset = “utf-8” name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="..\CSS\Default setting.css">
+    <link rel="stylesheet" type="text/css" href="..\CSS\Join us Style Sheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class ="logo">
+            <img src="..\Page-Background\Company_Logo.PNG">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Landing Page.html"> Welcome! </a></li>
+                <li><a href="Home Page.html"> Home </a></li>
+                <div class = "dropdown">
+                    <li> <a href="Log In.html"> Log In </a>
+                        <div class = "dropdown-content">
+                            <a href="Join us.html"> Join us </a>
+                        </div>
+                    </li>
+                </div>
+
+                <li><a href="Gallery.html"> Gallery </a></li>
+
+                <div class = "dropdown">
+                    <li> <a> Product </a>
+                        <div class = "dropdown-content">
+                            <a href="Accessories.html"> Accessories </a>
+                            <a href="Desktop.html"> Desktop </a>
+                            <a href="Monitor.html"> Monitor </a>
+                            <a href="Laptop.html"> Laptop </a>
+                            <a href="Software.html"> Software </a>
+                        </div>
+                    </li>
+                </div>
+
+                <div class = "dropdown">
+                    <li> <a> Brand </a>
+                        <div class = "dropdown-content">
+                            <a href="Acer.html"> Acer </a>
+                            <a href="Dell.html"> Dell </a>
+                            <a href="HP.html"> HP </a>
+                            <a href="Lenovo.html"> Lenovo </a>
+                            <a href="MSI.html"> MSI </a>
+                        </div>
+                    </li>
+                </div>
+                
+                <div class = "right-nav">
+                    <li><a href="Contact.html"> Contact </a></li>
+                    <li><a href="About.html"> About </a></li>
+                </div>
+            </ul>
+        </nav> 
+    </header>
+    
+    <br><h1> Want to hear more? </h1>
+
+    <div class = "form-background">
+        <h2>Leave your info and we’ll get back to you.</h2>
+
+        <form action = "Log In.html" name ="SignUpform" onsubmit="return SignUp()">
+            <div>
+                <label for="name"> What’s your name?*
+                <input type="text" id="name" placeholder="Name" required></label>
+            </div>
+            
+            <div>
+                <label for="email"> What’s your email address? <span id="invalid_email"></span>
+                <input type="text" id="email" placeholder="Email">
+                </label>
+            </div>
+
+            <div>
+                <label for="phone"> What’s your phone number? <span id="invalid_phone"></span>
+                    <input type="text" id="phone" placeholder="Phone">
+  
+                </label>
+            </div>
+            
+            <div>
+                <label for="password"> Create a password: <span id="invalid_password"></span>
+                    <input type="text" id="password" name="password" placeholder="Password">
+                    <small><ul>
+                        <li> At least 8 characters. </li>
+                        <li> A mixture of both uppercase & lowercase letters and numbers. </li>
+                    </ul></small>  
+                </label>
+            </div>
+
+            <div>
+                Which brand you are interested in? <br>
+                <label class="container"> Acer
+                    <input type="checkbox">
+                    <span class = "checkmark"></span>
+                </label>   
+                
+                <label class="container"> Dell 
+                    <input type="checkbox">
+                    <span class = "checkmark"></span>
+                </label>
+            
+                <label class="container"> HP 
+                    <input type="checkbox">
+                    <span class = "checkmark"></span>
+                </label>
+                 
+                <label class="container"> Lenovo 
+                    <input type="checkbox">
+                    <span class = "checkmark"></span>
+                </label>
+                
+                <label class="container"> MSI
+                    <input type="checkbox">
+                    <span class = "checkmark"></span>
+                </label>
+            </div>
+            
+            <div>
+                <br><lable for ="budget"> What is your budget? </label>
+                <select name="budget" id="budget">
+                    <option value="range1"> $100 - $200 </option>
+                    <option value="range2"> $200 - $400 </option>
+                    <option value="range3"> $400 - $600 </option>
+                    <option value="range4"> Other </option>
+                </select>
+            </div>
+           
+            <div>
+                <label for="Ask"> Anything else you’d like to hear or ask about? </label>
+                <textarea id="ask" name="ask" placeholder="Ask us anything"></textarea>
+            </div>  
+            
+            <input type="submit" value="Sign Up">
+
+            <div class = "option"> 
+                Already have an account? <a href="Log In.html"> Log In </a> 
+            </div>
+        </form>
+
+    </div>
+
+    <footer>
+        <div class = "footer-container">
+            <div class = "footer-content">
+                <h4> Contact Number: </h4>
+                <p>  018-323-0225 </p>
+            </div>
+            
+            <div class = "footer-content">
+                <h4> Email </h4>
+                <p> cxbakac@gmail.com </p>
+            </div>
+            
+            <div class = "footer-content">
+                <h4> Store Location: </h4>
+                <p> Bandar Menjalara, 52200 Kepong, Kuala Lumpur </p>
+            </div>
+            
+            <div class = "social media">
+                <a href="https://www.facebook.com/copypastie/"> <i class="fa fa-facebook"> </i></a>
+                <a href="https://twitter.com/copypastie"> <i class="fa fa-twitter"> </i></a>
+                <a href="https://www.instagram.com/copypastie/?hl=en"> <i class="fa fa-instagram"> </i></a>
+            </div>
+            
+            <div class = "footer-bottom"> 
+                <small><p> &copy;2022 by Salted Fish. Created with html, CSS and JavaScript. </p></small>
+            </div>
+        </div>
+    </footer>
+    <script src = "../JavaScript/Join Us Script.js"></script>  
+</body>
+</html>
+

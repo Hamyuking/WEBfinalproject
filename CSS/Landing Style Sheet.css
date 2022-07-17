@@ -1,0 +1,115 @@
+body {
+    background-image: url("../Page-Background/Landing_Background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #FFCCCC;
+    overflow-x:hidden;
+}
+  
+.column {
+    float: left;
+    height: 60vh;
+    padding: 0px 30px 100px 30px;
+    margin: 0px;
+}
+
+.column.side {width: 8%;}
+
+.column.middle {min-width: 50%;}
+
+.column.middle h1 {
+    font-size: 44px;
+    color: #292929}
+
+.column.middle p {
+    font-size: 16px;
+    color: #292929;
+    line-height: 0px;
+}
+
+.main-search {
+    width: 295px;
+    height: 47px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+input[type=text] {
+    min-width: 21%;
+    box-sizing: border-box;
+    border: 1px solid #767676;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('../Icon/searchicon.png');
+    background-position: 10px 12px;
+    background-size: 20px; 
+    background-repeat: no-repeat;
+    padding: 12px 5px 12px 40px;
+  }
+
+.searchbtn {
+    width: 142px;
+    height: 40px;
+    border: 0px solid #E8E6E6;
+    border-radius: 5px;
+    box-shadow: 6px 7px #767676;
+    color: #000000;
+    font-size: 15px;
+    line-height: 10px;
+    margin-left: 340px;
+    margin-top: 38px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.searchbtn:hover {
+    margin-left: 350px;
+    margin-top: 42px;
+    background-color: #C7C7C7;
+    box-shadow:none;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-bottom p {
+    display: flex;
+    min-width: 100vw;
+    padding-left: 485px;
+    padding-top: 50px;
+    font-size: 14px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 600px) {
+    .column.middle {
+        margin-top: 10px;
+        margin-bottom: 150px;
+        transition: all 1s ease;  
+    }
+
+    .searchbtn, .searchbtn:hover {
+        float: none;
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 100px;
+        transition: all 1s ease;  
+    }
+
+    .column {
+        height: 2vh;
+        margin-bottom: 75px;
+        transition: all 1s ease;
+    }
+
+    .footer-bottom {
+        display: inline-flex;
+        width: 10vw;
+        margin: -0px 0 0px -350px;
+    }
+}

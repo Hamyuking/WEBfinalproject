@@ -1,0 +1,174 @@
+body {
+    background-image: url("../Page-Background/About_Background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 100px 45px 100px 45px;
+}
+  
+.item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 3px;
+    padding: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+.item2 { 
+    padding: 130px;
+    width: 90px;
+    height: 80px;
+}
+
+.item3 {
+    padding: 130px;
+    width: 90px;
+    height: 80px;
+}
+
+.item4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 3px;
+    padding: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    width: 250px;
+    height: 225px;
+    margin-right: 1px;
+}
+
+  
+h1 {
+    padding-top: 65px;
+    font-weight: lighter ;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 35px;
+}
+
+p{
+    color: transparent;
+    font-size: 18px;
+}
+
+.item1 h1{ 
+    text-align: center;
+    padding-top: 95px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.item1:hover h1{ 
+    text-align: center;
+    padding-top: 1px;
+    color: transparent;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.item1:hover p{
+    padding-top: 1px;
+    padding-left: 3px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.item4 h1{ 
+    text-align: center;
+    padding-top: 80px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.item4:hover h1{ 
+    text-align: center;
+    padding-top: 1px;
+    color: transparent;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.item4:hover p{
+    padding-top: 1px;
+    padding-left: 3px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.item:hover h1{ 
+    text-align: center;
+    padding-top: 1px;
+    color: transparent;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.item:hover p{
+    padding-top: 1px;
+    padding-left: 3px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.item img{
+    visibility: hidden;
+}
+
+.item:hover img{
+    visibility: visible;
+    margin-top: -25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.footer-bottom p {
+    display: flex;
+    min-width: 100vw;
+    padding-left: 505px;
+    padding-top: 50px;
+    font-size: 14px;
+    text-align: center; 
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        background-size: cover;
+        background-repeat: repeat-y;
+        transition: all 1s ease;
+    }
+
+    .grid-container{
+        width: 90%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-top: 175px;
+        margin-left: 20px;
+        margin-right: 20px;
+        transition: all 1s ease;
+    }
+
+    .footer-bottom p{
+        display: inline-flex;
+        min-width: 130vw;
+        margin-right: 210px;
+        transition: all 1s ease;
+    }
+}

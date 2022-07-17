@@ -1,0 +1,98 @@
+.adjustimage1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 200px;
+}
+
+.adjustimage2{
+    margin-left: -100px;
+    margin-top: 19px;
+    margin-bottom: 47px;
+}
+
+.adjustimage3{
+    margin-left: 8px;
+    margin-right: 25px;
+    margin-top: 35px;
+    margin-bottom: 46px;
+}
+
+
+.adjustimage4{
+    margin-left: -5px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
+
+.adjustimage5{
+    margin-left: -5px;
+    margin-right: 40px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+
+.bn1 {
+    display: block;
+    color:#767676;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.bn2 {
+    display: block;
+    color:#767676;
+    margin-top: 41px;
+    margin-bottom: 20px;
+}
+
+.bn3 {
+    display: block;
+    color:#767676;
+    margin-top: 58px;
+    margin-bottom: 21px;
+}
+
+.bn4 {
+    display: block;
+    color:#767676;
+    margin-top: 56px;
+    margin-bottom: 22px;
+}
+
+.bn5 {
+    display: block;
+    color:#767676;
+    margin-top: 41px;
+    margin-bottom: 22px;
+}
+
+.price {
+    display: block;
+}
+
+@media screen and (max-width:1024px) { 
+    .Title h1{
+        margin-top: 120px;
+        margin-left: -52px;
+    }
+    
+    .Title p1{
+        margin-left: -195px;
+        font-size: 15px;
+    }
+
+    .card img{
+        max-width: 120%;
+        height: 100%;
+        margin-left: 22px;
+        transition: all 1s ease; 
+    }   
+
+    .adjustimage1{
+        width: 90%;
+        margin-left: -5px;
+        margin-bottom: -20px;
+    }
+}

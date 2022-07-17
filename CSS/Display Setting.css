@@ -1,0 +1,125 @@
+body {
+    background-color: #B8E0DC;
+    max-width: 100%;
+    height: auto;
+    overflow-x:hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.Title h1{
+    font-size: 60px;
+    color: #000000;
+    padding-left: 200px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+.Title p1{
+    font-size: 17px;
+    color: #767676;
+    padding-left: 200px;
+}
+
+.Title {
+    margin-bottom: 45px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 0 50px 4px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card:hover{
+    box-shadow: 0px 10px 6px 5px #888888;
+    transform: translateY(-15px);
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.card {
+    padding: 16px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.description {
+    display: block;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.footer-bottom p {
+    display: flex;
+    min-width: 100vw;
+    padding-left: 257px;
+    padding-top: 50px;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.footer-container {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        min-width: 60%;
+        display: block;
+        margin-bottom: -15px;
+        margin-left: 97px;
+        transition: all 1s ease; 
+    }
+            
+    nav ul {
+        margin-top: -80px;
+        padding-right: -5px;
+        transition: all 1s ease; 
+    }
+
+    nav li a {
+       width: 80px;
+       height: 10px;
+       transition: all 1s ease; 
+    }
+  
+    .footer-bottom p{
+        display: inline-flex;
+        min-width: 130vw;
+        margin-right: 210px;
+    }
+  
+    .footer-container {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:1024px) {    
+    nav ul {
+        margin-top: -80px;
+        padding-right: -5px;
+        transition: all 1s ease; 
+    }
+
+    nav li a {
+       width: 80px;
+       height: 60px;
+       transition: all 1s ease; 
+    }
+}

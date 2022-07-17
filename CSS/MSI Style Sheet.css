@@ -1,0 +1,78 @@
+body{
+    background: #D3DEDC;
+}
+
+.Title{
+    margin-top: -50px;
+    margin-left: 1200px;
+    margin-bottom: 5px;
+}
+
+.adjustimage1{
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.adjustimage2{
+    margin-bottom: 32px;
+    margin-top: 19px;
+}
+
+.adjustimage3{
+    margin-top: 18px;
+    margin-bottom: -1px;
+}
+
+.adjustimage4{
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.dbn1 {
+    display: block;
+    color: transparent;
+    margin-top: 22px;
+    margin-bottom: 42px;
+}
+
+.dbn2 {
+    display: block;
+    color:transparent;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.dbn3 {
+    display: block;
+    color: transparent;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.dbn4 {
+    display: block;
+    color: transparent;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.price {
+    display: block;
+}
+
+.column {
+    float: left;
+    display: block;
+    width: 50%;
+    padding: 0 0 50px 4px;
+}
+
+@media screen and (max-width:1024px) {  
+    .adjustimage2{
+        margin-left: 10px;
+    }
+
+    .adjustimage3{
+        margin-left: -1px;
+    }
+}

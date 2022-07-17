@@ -1,0 +1,119 @@
+body{
+    background: #D3DEDC;
+}
+
+.Title{
+    margin-top: -10px;
+    margin-left: 1280px;
+    margin-bottom: 50px;
+}
+
+.adjustimage1{
+    margin-bottom: 35px;
+    margin-top: 80px;
+}
+
+.adjustimage2{
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+
+.adjustimage3{
+    margin-top: 30px;
+    margin-bottom: 28px;
+    margin-left: -100px;
+}
+
+.adjustimage4{
+    margin-bottom: 42px;
+    margin-top: 25px;
+}
+
+.adjustimage5{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.adjustimage6{
+    margin-bottom: 52px;
+    margin-top: 19px;
+}
+
+.adjustimage7{
+    margin-bottom: -20px;
+    margin-top: 19px;
+}
+
+.dbn1 {
+    display: block;
+    color: transparent;
+    margin-top: 22px;
+    margin-bottom: 41px;
+}
+
+.dbn2 {
+    display: block;
+    color:transparent;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.dbn3 {
+    display: block;
+    color: transparent;
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+
+.dbn4 {
+    display: block;
+    color: transparent;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.dbn5 {
+    display: block;
+    color: transparent;
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+
+.dbn6 {
+    display: block;
+    color: transparent;
+    margin-bottom: 30px;
+}
+
+.dbn7 {
+    display: block;
+    color: transparent;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.price {
+    display: block;
+}
+
+.column {
+    float: left;
+    display: block;
+    width: 50%;
+    padding: 0 0 50px 4px;
+}
+
+@media screen and (max-width:1024px) {  
+    .adjustimage1{
+        width: 90%;
+        margin-left: 23px;
+    }
+
+    .adjustimage2{
+        margin-left: 20px;
+    }
+
+    .adjustimage3{
+        margin-left: -85px;
+    }
+}

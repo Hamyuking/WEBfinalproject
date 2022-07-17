@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<hmtl lang = "en">
+
+<head>
+    <title> Log In: Join Us </title>
+    <meta charset = “utf-8” name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="..\CSS\Default setting.css">
+    <link rel="stylesheet" type="text/css" href="..\CSS\Log In Style Sheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class ="logo">
+            <img src="..\Page-Background\Company_Logo.PNG">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Landing Page.html"> Welcome! </a></li>
+                <li><a href="Home Page.html"> Home </a></li>
+                <div class = "dropdown">
+                    <li> <a href="Log In.html"> Log In </a>
+                        <div class = "dropdown-content">
+                            <a href="Join us.html"> Join us </a>
+                        </div>
+                    </li>
+                </div>
+
+                <li><a href="Gallery.html"> Gallery </a></li>
+
+                <div class = "dropdown">
+                    <li> <a> Product </a>
+                        <div class = "dropdown-content">
+                            <a href="Accessories.html"> Accessories </a>
+                            <a href="Desktop.html"> Desktop </a>
+                            <a href="Monitor.html"> Monitor </a>
+                            <a href="Laptop.html"> Laptop </a>
+                            <a href="Software.html"> Software </a>
+                        </div>
+                    </li>
+                </div>
+
+                <div class = "dropdown">
+                    <li> <a> Brand </a>
+                        <div class = "dropdown-content">
+                            <a href="Acer.html"> Acer </a>
+                            <a href="Dell.html"> Dell </a>
+                            <a href="HP.html"> HP </a>
+                            <a href="Lenovo.html"> Lenovo </a>
+                            <a href="MSI.html"> MSI </a>
+                        </div>
+                    </li>
+                </div>
+                
+                <div class = "right-nav">
+                    <li><a href="Contact.html"> Contact </a></li>
+                    <li><a href="About.html"> About </a></li>
+                </div>
+            </ul>
+        </nav> 
+    </header>
+    
+    <br><h1> Welcome Back! </h1>
+
+    <div class = "form-background">
+        <form action = "Landing Page.html" name="LogInForm" onsubmit="return Login()">
+            <div>
+                <label for="username"> Email address: 
+                    <input type="text" id="username" placeholder="Account Email"> 
+                    <span id="email_error"></span>
+                </label>
+            </div>
+
+            <div>
+                <label for="accpassword"> Password: 
+                    <input type="password" id="accpassword" placeholder="Account Password">
+                    <span id="password_error"></span>
+                    <span class="visible">
+                        <input type="checkbox" onclick="Visible()"> Show Password
+                    </span>
+                </label>
+            </div>
+
+            <input type="submit" value="Log In"/>
+
+            <div class = "option"> 
+                Don't have an account? <a href="Join us.html"> Sign Up </a> 
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class = "footer-container">
+            <div class = "footer-content">
+                <h4> Contact Number: </h4>
+                <p>  018-323-0225 </p>
+            </div>
+            
+            <div class = "footer-content">
+                <h4> Email </h4>
+                <p> cxbakac@gmail.com </p>
+            </div>
+            
+            <div class = "footer-content">
+                <h4> Store Location: </h4>
+                <p> Bandar Menjalara, 52200 Kepong, Kuala Lumpur </p>
+            </div>
+            
+            <div class = "social media">
+                <a href="https://www.facebook.com/copypastie/"> <i class="fa fa-facebook"> </i></a>
+                <a href="https://twitter.com/copypastie"> <i class="fa fa-twitter"> </i></a>
+                <a href="https://www.instagram.com/copypastie/?hl=en"> <i class="fa fa-instagram"> </i></a>
+            </div>
+            
+            <div class = "footer-bottom"> 
+                <small><p> &copy;2022 by Salted Fish. Created with html, CSS and JavaScript. </p></small>
+            </div>
+        </div>
+    </footer>
+    <script src = "../JavaScript/Log In Script.js"> </script>
+</body>
+</html>
